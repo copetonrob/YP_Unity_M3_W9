@@ -74,7 +74,7 @@
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/stars_material.png" width="400"/>
 
-В общих настройках измени длительность, скорость, начальный размер частиц, цвет и прочие параметры.
+В общих настройках измени длительность, скорость, начальный размер частиц, цвет и прочие параметры. Не забудь убрать галочку Play On Awake, чтобы эффект не воспроизводился в начале игры. Simulation Space World позволяет открепить частицы от игрока и двигать их в пространстве независимо.
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/heal_effect_1.png" width="400"/>
 
