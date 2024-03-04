@@ -4,6 +4,8 @@
 
 В этом задании мы изучим Particle System (система частиц). Эта система используется в Unity, чтобы делать красивые визуальные эффекты. Попробуем сделать два эффекта: свечение бутылки зелья и эффект получения здоровья игроком.
 
+<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/result.gif" width="600"/>
+
 ## Инструкция
 
 1. Эффект свечения зелья.
@@ -27,6 +29,10 @@
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/Particles.png" width="400"/>
 
 В самом низу находится группа параметров Renderer. Замени материал на Glow_particles из пакета. Это самая главная настройка, она отвечает за то, как будет выглядеть каждая наша частица.
+
+<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/Renderer.png" width="400"/>
+
+Теперь наши частицы выглядят вот так
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/particle.png" width="300"/>
 
@@ -68,17 +74,17 @@
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/stars_material.png" width="400"/>
 
-В общих настройках длительность, скорость, начальный размер частиц, цвет и прочие параметры.
+В общих настройках измени длительность, скорость, начальный размер частиц, цвет и прочие параметры.
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/heal_effect_1.png" width="400"/>
 
 В настройках Emission выстави Rate over Time "50", в настройках Shape выстави сферу и радиус примерно "0.5"
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/effect2.png" width="400"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/heal_effect_2.png" width="400"/>
 
 Velocity over Lifetime позволяет нам контроллировать скорость каждой частицы на протяжении ее существования.
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/effect3.png" width="400"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/heal_effect_3.png" width="400"/>
 
 Настройка Noise позволяет добавить некоторую хаотичность в движение частиц.
 
@@ -104,7 +110,7 @@ Velocity over Lifetime позволяет нам контроллировать 
 
 Запусти проект, проверь что все работает.
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/effect2.gif" width="600"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W9/blob/main/img/result.gif" width="600"/>
 
 3. Задания со звездочкой.
 
